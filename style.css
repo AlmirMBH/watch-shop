@@ -1,0 +1,287 @@
+/* logo and navbar*/
+.clearfix {
+    clear: both;
+    display: block;
+}
+.top-bar img{
+    width: 130px;
+    margin-left: 50px;
+}
+
+.navbar{
+   float: right;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-right: 50px;
+}
+
+.navbar ul li{    
+    color: #010102;
+    list-style-type: none;
+    font-size: large;  
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: 600;
+    margin-right: 15px;
+    display: inline;
+}
+
+.navbar ul li a{    
+    text-decoration: none;
+    color: #010102;    
+}
+
+.navbar ul li a:hover{        
+    color:#ffd700;
+}
+
+/* search form*/
+.search-form{
+    float: right;
+    margin-right: 55px;
+}
+
+.search-message{
+    text-align: center;
+}
+
+.search-messages p{
+    float:right;
+    width:235px;
+    word-break: break-all;
+    margin-right: 55px;
+    color: #ff0000;
+    font-weight: 600;
+    text-align: center;
+}
+
+.number-watches-found p{
+    text-align: center;
+    color: #ff0000;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#result{
+    text-align: center;
+}
+
+#result img{
+    width: 200px;
+    margin-top: 30px;
+}
+
+/* main watch cards*/
+.home-titles h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #010102;
+    font-size: 45px;
+    font-weight: 800; 
+    margin-top: 25px;   
+    margin-bottom: 60px;   
+}
+
+.titles{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #010102;
+}
+
+.titles h1{
+    font-size: 45px;
+    font-weight: 800; 
+    margin-top: 50px;   
+}
+
+.titles h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;   
+    margin-bottom: 70px;
+    
+}
+
+.titles h3{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 40px;   
+    margin-bottom: 70px;
+}
+
+.divider{
+    background-color: #808080; 
+    height: 5px; 
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.featured-image-top{
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 70px;
+}
+
+.featured-image-top img{
+    width:55%;
+}
+
+.featured-image-bottom{
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+
+.featured-image-bottom img{
+    width:90%;
+}
+
+.watch-item{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.watch-item a{
+    text-decoration: none; 
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.watch-img img{
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.watch-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+/* contact form*/
+.contact{
+    background-color: grey !important;
+    width: 50%;
+    height: 430px;
+    margin: 0px auto;
+}
+
+.contact-form{
+    height: 350px;
+    padding-top: 50px;
+}
+
+.contact-form{
+    width: 50%;
+    float:left;
+}
+
+.contact-form input{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border: #010102 1px solid;
+    margin-left: 40px;
+}
+
+.contact-form button{
+    height: 40px;
+    width: 80px;
+    border: #010102 1px solid;
+    margin-left: 40px;
+}
+
+.contact-info{
+    float: right;
+    width: 50%;    
+}
+
+.contact-info h2{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-info p{
+    padding-left: 20px;
+    padding-right: 20px;
+    word-break: break-all;
+    font-size: large;
+}
+
+/* about */
+.text{
+    text-align: left;
+    min-width: 400px;
+    max-width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px auto;
+    font-size:24px;
+    padding: 0px 10px 0px 10px;
+    line-height: 35px;
+    font-style: italic;
+}
+
+/* insert form*/
+.insert{
+    background-color: grey !important;
+    width: 50%;
+    height: 430px;
+    margin: 0px auto;
+}
+
+.insert-form{
+    height: 350px;
+    padding-top: 50px;
+}
+
+.insert-form{
+    width: 80%;
+}
+
+.insert-form input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: #010102 1px solid;
+    margin: 0px auto;
+}
+
+.insert-message{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.footer{
+    margin-top: 200px;
+    height: 40px;
+    color: #010102;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+
+/* cerruti page*/
+.featured-cerruti img{
+    width:70%;
+    margin-bottom: 100px;
+}
+
+/* armani page*/
+.featured-armani img{
+    width:70%;
+}
+
+/* diesel page*/
+.featured-diesel img{
+    width:50%;
+    margin-bottom: 100px;
+}
